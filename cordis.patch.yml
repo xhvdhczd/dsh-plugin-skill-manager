@@ -1,0 +1,7 @@
+# dsh-plugin-skill-manager bundle patch: one loader row mounting the plugin
+# (host half registers the /api/skill-manager/toggle route; the package's
+# `dsh.client` declaration puts the Skills tab into the browser roster).
+
+- insert:
+    - id: skill-manager
+      name: 'dsh-plugin-skill-manager'
