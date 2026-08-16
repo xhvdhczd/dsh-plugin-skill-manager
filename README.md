@@ -10,9 +10,7 @@ Disabling a skill writes `disable-model-invocation: true` into the skill's `SKIL
 
 - 🗂️ **Skills tab** registered into the `conversation.view` slot, alongside Chat and Trajectory
 - 🔍 **Search box** filtering by skill name or description
-- ⚡ **Per-skill toggle** with optimistic UI updates (no double-click needed)
 - 🔘 **Bulk switch**: enable or disable every visible skill at once
-- 🌐 Bilingual UI (简体中文 / English), follows the host locale
 
 ## How it works
 
