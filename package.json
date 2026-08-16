@@ -2,6 +2,14 @@
   "name": "dsh-plugin-skill-manager",
   "version": "0.1.0",
   "description": "DSH Web UI plugin: a Skills tab next to Chat/Trajectory listing every available skill with a per-skill enable/disable toggle (model-side disable via SKILL.md frontmatter).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhvdhczd/dsh-plugin-skill-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xhvdhczd/dsh-plugin-skill-manager/issues"
+  },
+  "homepage": "https://github.com/xhvdhczd/dsh-plugin-skill-manager#readme",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
