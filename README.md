@@ -1,5 +1,7 @@
 # dsh-plugin-skill-manager
 
+**English** | [简体中文](./README.zh-CN.md)
+
 A DeepSeek Harness (DSH) plugin that adds a **Skills** tab to the web UI conversation view ring (next to *Chat* and *Trajectory*). It lists every available skill with a live search box and a per-skill **enable / disable** switch, plus a bulk **enable-all / disable-all** toggle.
 
 Disabling a skill writes `disable-model-invocation: true` into the skill's `SKILL.md` frontmatter, so the model-facing skill catalog drops it while the user-facing surface keeps it — the skill stays visible in the list and can be re-enabled at any time.
